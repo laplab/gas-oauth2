@@ -1,14 +1,14 @@
-#OAuth2 lib for Google Apps Script
+# OAuth2 lib for Google Apps Script
 ---
 Represents OAuth2 object that provides several methods for OAuth2 Google authentication.
 
-##Methods
+## Methods
 
-####OAuth2.auth(event)
+#### OAuth2.auth(event)
 If *event* is not provided returns auth link else finishes auth process with getting the token.
 If process is not finished or error has occured returns *false*. All steps of process are logged with *Logger* app.
 
-##Example
+## Example
 ```javascript
 function doGet(e) {
   
@@ -31,5 +31,5 @@ function doGet(e) {
 } 
 ```
 
-##TODO
+## TODO
 Fix token refresh proccess
