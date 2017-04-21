@@ -1,5 +1,4 @@
-# OAuth2 lib for Google Apps Script
----
+# OAuth2 lib for Google Apps Script ![Unmaintained](https://img.shields.io/badge/status-unmaintained-red.svg)
 Represents OAuth2 object that provides several methods for OAuth2 Google authentication.
 
 ## Methods
